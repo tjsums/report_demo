@@ -2,6 +2,7 @@
   "is_publish": true,
   "name": "演示报表",
   "headerLine": 4,
+  "version":"v2",
   "number": "demo_suitongjian",
   "filter": [
     {
