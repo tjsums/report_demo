@@ -108,6 +108,14 @@ Meta文件样例如下：
 - 云函数Key为FlexFormula_函数名称
 - 云函数内容为一个继承自BaseFormulaObject的Class定义，其中do为函数体
 
+穿透支持
+------
+系统支持通过Excel单元格Hyperlink链接进行穿透，只需要在对应单元格维护好HyperLink，格式如下：
+http://[state]?参数
+如http://flex_report?report=10000001&filter=CURRENT_DEPARTMENT:XXXX;CURRENT_DATE:XXX
+会跳转到flex_report，参数用相应参数
+
+参数说明：Flex Report参数采用hcmFilterString格式，格式为key:value;key:value
 
 部署说明
 ------
