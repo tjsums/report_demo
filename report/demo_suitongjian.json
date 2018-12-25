@@ -1,7 +1,7 @@
 {
   "is_publish": true,
   "name": "Flex报表演示",
-  "description": "演示Flex报表能力",
+  "description": "演示Flex报表能力Demo",
   "headerLine": 4,
   "number": "demo_suitongjian",
   "filter": [
