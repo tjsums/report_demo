@@ -21,7 +21,8 @@ HCM Cloud 第三代报表系统
 Meta文件样例如下：
 ```json
 {
-  "is_publish": true,   # 是否发布
+  "is_publish": true,   
+  //是否发布
   "name": "Flex报表演示", # 报表名称，公司下不能重复
   "description": "演示Flex报表能力",
   "headerLine": 4,     # 表头隐藏（view模式下隐藏的行数）
