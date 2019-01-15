@@ -8,6 +8,7 @@
     {
       "component": "hc-selector-depart",
       "options": {
+        "default":"default",
         "singleLine": true,
         "required": true,
         "role": "manager"
@@ -18,6 +19,7 @@
     {
       "component": "hc-input-datetime",
       "options": {
+        "default":"default",
         "inputLock": true,
         "singleLine": true,
         "required": true,
